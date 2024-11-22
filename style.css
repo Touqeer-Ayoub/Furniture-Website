@@ -1,0 +1,170 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* nav start */
+nav {
+    display: flex;
+    width: 100%;
+    top: 0px;
+    position: fixed;
+    height: 70px;
+    align-items: center;
+    box-shadow: 5PX 5PX 8PX gray;
+    background-color: gainsboro;
+}
+
+nav .parent1 {
+    display: flex;
+    align-items: center;
+}
+
+nav .parent1 .image1 {
+    width: 60px;
+    height: 60px;
+    padding: 5px;
+    margin-left: 5%;
+    border-radius: 60%;
+}
+
+nav .parent1 .child1 {
+    align-items: center;
+    margin-left: 10px;
+}
+
+nav .parent1 .para1 {
+    text-transform: uppercase;
+    font-family: monospace;
+    font-size: 20px;
+    letter-spacing: 10px;
+}
+
+nav .parent1 .para2 {
+    font-size: 12px;
+    font-family: monospace;
+    letter-spacing: 5px;
+    font-weight: bold;
+
+}
+
+nav .parent2 {
+    display: flex;
+    align-items: center;
+    margin-left: 18%;
+}
+
+.parent2 input {
+    width: 450px;
+    height: 40px;
+    padding: 10px;
+    font-size: 18px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border: 1PX solid gainsboro;
+}
+
+.parent2 input::placeholder {
+    padding: 10px;
+    font-size: 15px;
+}
+
+nav .parent2 .image2 {
+    width: 60px;
+    padding: 5px;
+    margin-left: 3%;
+    height: 60px;
+    border-radius: 60%;
+}
+
+nav .parent2 select {
+    height: 30px;
+    border-radius: 5px;
+    margin-left: 5px;
+    background-color: black;
+    border: none;
+    padding: 3px;
+    color: white;
+}
+
+nav .parent2 a {
+    margin-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+}
+/* nav end */
+/* section 1 start */
+.parent3{
+    margin-left: 80px;
+    margin-top: 8%;
+}
+.parent3 .child2 img{
+    width: 910px;
+    height: 385px;
+}
+.parent3 .child3{
+    float: right;
+    margin-right: 85px;
+}
+.parent3 .child3 img{
+    height: 256px;
+    width: 250px;
+    border-radius: 5px;
+    border:1px solid;
+}
+.parent3 .child3 p{
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.parent4{
+    margin-left: 80px;
+    margin-right: 85px;
+    margin-top: 20px;
+    display: flex;
+}
+.parent4 img{
+    height: 150px;
+    width: 219px;
+    border-radius: 5px;
+    border:1px solid;
+}
+.parent5{
+    margin-left: 80px;
+    margin-right: 85px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+.child8{
+}
+.child8 img{
+    width: 219px;
+    height: 150px;
+}
+.child8 .para3{
+    font-weight: bold;
+    line-height: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.child8 .para4{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 25px;
+}
+.child8 a{
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 16px;
+    text-decoration: none;
+    color: black;
+}
+
+
+
+/* section 1 end */
